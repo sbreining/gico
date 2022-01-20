@@ -20,15 +20,15 @@
 # to take  advantage of unique  branch names. Generally,  if an agile board
 # like JIRA is being used, then simply the ticket number should suffice for
 # checking out the branch.
-# However, the few conditions that will need more information when using
+# However,  the few conditions that  will need more information  when using
 # ticket numbers:
-#     Overlapping Numbers: In the event that DEV-X and SRE-X both exist
-#                          where X is the same number value, you should
+#     Overlapping Numbers: In  the event  that DEV-X  and SRE-X  both exist
+#                          where  X is the  same number  value, you  should
 #                          specify the prefix of the ticket.
 #
-#       Multiple Branches: When there are multiple branches for a given
-#                          ticket and each of the branches share similar
-#                          prefixes and ticket numbers, then enough of the
+#       Multiple Branches: When  there  are multiple  branches for a  given
+#                          ticket  and each of  the branches  share similar
+#                          prefixes and ticket numbers,  then enough of the
 #                          branch must be present to make the regex unique.
 #
 # Example Usage:
