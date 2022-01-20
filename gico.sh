@@ -33,7 +33,13 @@
 #
 # Example Usage:
 #
-#   `gico
+# 1. Simple checkout: `gico 123`
+#
+# 2. Fetch before checkout: `gico -f 123`
+#
+# 3. Attempt new branch creation: `gico -n ticket-123-branch-name`
+#
+# 4. Fetch, then attempt branch creation: `gico -f -n ticket-123-branch`
 #
 
 function usage {
